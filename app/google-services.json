@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "286198039014",
+    "project_id": "carwashmap-bbc5a",
+    "storage_bucket": "carwashmap-bbc5a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:286198039014:android:be53ecd4d05ebbce4f1627",
+        "android_client_info": {
+          "package_name": "com.example.carwashmap"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "286198039014-f7hr8r9afv7tvag5cl8f7hnvg973ae34.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBwP7g-ddMh5o3r4sMH_5gLtUaHG-CSTTo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "286198039014-f7hr8r9afv7tvag5cl8f7hnvg973ae34.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
