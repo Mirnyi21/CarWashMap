@@ -5,4 +5,10 @@
     <string name="email">Почта</string>
     <string name="registration">Регистрация</string>
     <string name="register_enter">Зарегестрироваться и войти!</string>
+    <string name="service_name">Название сервиса</string>
+    <string name="service_address">Адрес сервиса</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="entry_service">Запись в сервис</string>
+    <string name="price">Стоимость</string>
+    <string name="work_name">Наименование работ</string>
 </resources>

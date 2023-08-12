@@ -15,6 +15,9 @@
         android:theme="@style/Theme.CarWashMap"
         tools:targetApi="31">
         <activity
+            android:name=".ui.WorkListActivity"
+            android:exported="false" />
+        <activity
             android:name=".ui.ServiceStationsActivity"
             android:exported="false" />
         <activity
@@ -22,18 +25,16 @@
             android:exported="false" />
         <activity
             android:name=".ui.LoginActivity"
-            android:exported="true" >
-        <intent-filter>
-            <action android:name="android.intent.action.MAIN" />
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
 
-            <category android:name="android.intent.category.LAUNCHER" />
-        </intent-filter>
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
         </activity>
         <activity
             android:name=".MainActivity"
-            android:exported="false">
-
-        </activity>
+            android:exported="false" />
     </application>
 
 </manifest>
