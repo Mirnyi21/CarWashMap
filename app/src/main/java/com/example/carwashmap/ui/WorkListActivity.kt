@@ -5,7 +5,7 @@ import android.os.Bundle
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.example.carwashmap.R
-import com.example.carwashmap.adapters.WorkAdapter
+import com.example.carwashmap.ui.adapters.WorkAdapter
 
 class WorkListActivity : AppCompatActivity() {
 
