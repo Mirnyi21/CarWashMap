@@ -7,8 +7,10 @@
     <string name="register_enter">Зарегестрироваться и войти!</string>
     <string name="service_name">Название сервиса</string>
     <string name="service_address">Адрес сервиса</string>
-    <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="entry_service">Запись в сервис</string>
     <string name="price">Стоимость</string>
     <string name="work_name">Наименование работ</string>
+    <string name="auto">Автомобиль</string>
+    <string name="time">Время</string>
+    <string name="date">Дата</string>
 </resources>
