@@ -8,12 +8,12 @@ import androidx.recyclerview.widget.RecyclerView
 import com.example.carwashmap.R
 import com.example.carwashmap.models.ServiceWorkModel
 
-class WorkAdapter(/* передай список работ */) : RecyclerView.Adapter<WorkAdapter.WorkHolder>() {
+class WorkAdapter(works : List<ServiceWorkModel>) : RecyclerView.Adapter<WorkAdapter.WorkHolder>() {
 
     private val workList = mutableListOf<ServiceWorkModel>()
 
     init {
-        //workList.addAll(/* передай бд для заполнения */)
+        workList.addAll(works)
     }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): WorkHolder {
@@ -35,5 +35,7 @@ class WorkAdapter(/* передай список работ */) : RecyclerView.A
 
         }
     }
+
+
 
 }
