@@ -9,5 +9,4 @@ class WorkViewModel(workRepository: WorkRepository) : ViewModel() {
 
     val allServiceWorkLiveData : LiveData<List<ServiceWorkModel>> = workRepository.getAllWork()
 
-
 }

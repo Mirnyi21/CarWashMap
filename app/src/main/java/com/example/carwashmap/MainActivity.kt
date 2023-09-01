@@ -25,6 +25,7 @@ class MainActivity : AppCompatActivity() {
         createMap()
         setupViewModel()
 
+
     }
 
     private fun createMap() {
