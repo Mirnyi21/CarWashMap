@@ -30,7 +30,9 @@ abstract class ServiceDatabase : RoomDatabase() {
                     context.applicationContext,
                     ServiceDatabase::class.java,
                     "word_database"
-                ).build()
+                )
+                    .createFromAsset("database/main_db.db")
+                    .build()
                 INSTANCE = instance
                 // return instance
                 instance
